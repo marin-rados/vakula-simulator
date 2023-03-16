@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="./scripts/weather.js" defer></script>
+    <script src="./scripts/app.js" defer></script>
+    <title>Weather Today</title>
+</head>
+<body>
+    <div class="container">
+        <div class="main">
+
+            <h1>Weather Today</h1>
+
+            <form class="location">
+                <label for="city">Enter a location for weather information</label>
+                <input type="text" name="city" class="input">
+            </form>
+            
+            <div class="weather hide">
+                <img class="time">
+                <div class="icon">
+                    <img>
+                </div>
+                <div class="details">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

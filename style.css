@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #eeedec;
+    letter-spacing: 0.2em;
+    font-size: 0.8em;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1 {
+    margin-bottom: 1em;
+    color: rgb(90, 100, 114);
+    font-size: 2rem;
+}
+
+label {
+    font-size: 1.2em;
+    font-weight: 600;
+    color: gray;
+}
+
+input {
+    margin: 2em 0;
+    padding: 1em;
+    width: 300px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex-basis: 20%;
+}
+
+.weather {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1em;
+    overflow: hidden;
+    height: 700px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    background-color: white;
+}
+
+.hide {
+    display: none;
+}
+
+.icon {
+    background-color: whitesmoke;
+    position: relative;
+    top: -50px;
+    border-radius: 50%;
+    width: 100px;
+    margin-bottom: 1em;
+}
+
+span {
+    font-size: 4rem;
+}
+
+h5 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5em;
+}
+
+span, h5 {
+    color: rgb(90, 100, 114);
+}
+
+h4 {
+    color: gray;
+}
